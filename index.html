@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio de Youssouf Rezzag</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column" style="background:#414345;">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/iconmoi.png" alt="" class="img-fluid rounded-circle"> 
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Youssouf Rezzag</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://github.com/RezzagYoussouf" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://linkedin.com/in/youssouf-rezzag" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Accueil</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> A propos</a></li>
+        <li><a href="#competences"><i class="bi bi-bar-chart-line navicon"></i> Mes compétences</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Mon CV</a></li>
+        <li><a href="#mes-projets"><i class="bi bi-images navicon"></i> Mes Projets</a></li>
+        <li><a href="#experiences"><i class="bi bi-hdd-stack navicon"></i> Expériences</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background d-flex align-items-center justify-content-center" style="min-height: 70vh;">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center gap-5" data-aos="fade-up" data-aos-delay="100">
+        <!-- L'image est maintenant utilisée comme arrière-plan via CSS, donc ce bloc est vide -->
+        <div class="text-center text-md-end">
+          <h2 class="mb-3" style="font-size:2.8rem; font-weight:800; letter-spacing:1px;">Youssouf Rezzag</h2>
+          <p class="lead mb-0">Je suis un <span class="typed" data-typed-items="étudiant, développeur">étudiant</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="color:#4fd1ff;">A propos</h2>
+        <p class="mb-2" style="font-size:1.2rem; color:#4fd1ff; font-weight:600; letter-spacing:0.5px;">Bienvenue sur mon portfolio !</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center align-items-center">
+          <div class="col-lg-4 text-center">
+            <div class="profile-img-animated mx-auto mb-3">
+              <img src="assets/img/iconmoi.png" class="img-fluid rounded-circle shadow-lg" alt="Photo de Youssouf" style="max-width:220px; border:4px solid #4fd1ff;">
+            </div>
+            <div class="mt-2 d-flex flex-wrap justify-content-center gap-2">
+              <span class="badge bg-info text-dark d-flex align-items-center gap-1"><i class="bi bi-lightning-charge"></i> Curieux</span>
+              <span class="badge bg-success d-flex align-items-center gap-1"><i class="bi bi-brush"></i> Créatif</span>
+              <span class="badge bg-warning text-dark d-flex align-items-center gap-1"><i class="bi bi-rocket"></i> Dynamique</span>
+            </div>
+          </div>
+          <div class="col-lg-8 content">
+            <h2 class="mb-2 mt-1" style="color:#4fd1ff; font-weight:700; letter-spacing:1px;">Etudiant en BUT Informatique</h2>
+            <div class="row mb-3 g-3">
+              <div class="col-md-6">
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-calendar-event text-info fs-4"></i>
+                  <div><strong>Anniversaire:</strong> <span>3 Février 2005</span></div>
+                </div>
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-telephone text-info fs-4"></i>
+                  <div><strong>Téléphone:</strong> <span>+33 6 66 91 59 02</span></div>
+                </div>
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-geo-alt text-info fs-4"></i>
+                  <div><strong>Ville:</strong> <span>Bezons, France</span></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-person-badge text-info fs-4"></i>
+                  <div><strong>Age:</strong> <span>20</span></div>
+                </div>
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-mortarboard text-info fs-4"></i>
+                  <div><strong>Diplôme:</strong> <span>Bac +2</span></div>
+                </div>
+                <div class="info-card d-flex align-items-center gap-3 p-3 mb-2 rounded-3">
+                  <i class="bi bi-envelope text-info fs-4"></i>
+                  <div><strong>Email:</strong> <span>youssouf.rezzag@gmail.com</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="bg-dark text-white p-4 rounded-3 shadow-lg my-3" style="display:inline-block; min-width:220px; max-width:100%;">
+              <h4 class="mb-3 d-flex align-items-center gap-2" style="font-size:1.3rem; color:#4fd1ff; font-weight:700;">
+                <i class="bi bi-star-fill" style="color:#4fd1ff;"></i> Centres d'intérêts
+              </h4>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="skill-badge d-flex align-items-center gap-1"><i class="bi bi-trophy"></i> Football</span>
+                <span class="skill-badge d-flex align-items-center gap-1"><i class="bi bi-activity"></i> Athlétisme</span>
+                <span class="skill-badge d-flex align-items-center gap-1"><i class="bi bi-controller"></i> Jeux vidéo</span>
+                <span class="skill-badge d-flex align-items-center gap-1"><i class="bi bi-book"></i> Lecture</span>
+                <span class="skill-badge d-flex align-items-center gap-1"><i class="bi bi-search"></i> Veille technologique</span>
+              </div>
+            </div>
+            <p class="fst-italic py-3" style="font-size:1.1rem; text-align:justify;">
+              Passionné par le développement web et mobile, je m'investis pleinement dans chaque projet pour apprendre, créer et innover. J'aime relever des défis, collaborer en équipe et découvrir de nouvelles technologies.
+            </p>
+          </div>
+        </div>
+      </div>
+      <style>
+        #about .profile-img-animated {
+          display: inline-block;
+          border-radius: 50%;
+          box-shadow: 0 4px 24px #4fd1ff33, 0 2px 8px #0002;
+          animation: floatY 3.5s ease-in-out infinite;
+        }
+        @keyframes floatY {
+          0% { transform: translateY(0); }
+          50% { transform: translateY(-16px); }
+          100% { transform: translateY(0); }
+        }
+        #about .badge, #about .skill-badge {
+          font-size: 1.08em;
+          padding: 0.45em 1.2em;
+          border-radius: 2em;
+          font-weight: 600;
+          box-shadow: 0 2px 8px #4fd1ff11;
+          border: 1.5px solid #4fd1ff22;
+          background: #f8fafc;
+          color: #232946;
+        }
+        #about .badge.bg-info, #about .skill-badge.bg-info {
+          background: #e0f7fa !important;
+          color: #007b8a !important;
+        }
+        #about .badge.bg-success, #about .skill-badge.bg-success {
+          background: #e6ffed !important;
+          color: #1a7f37 !important;
+        }
+        #about .badge.bg-warning, #about .skill-badge.bg-warning {
+          background: #fffbe6 !important;
+          color: #b38600 !important;
+        }
+        #about .info-card {
+          background: #232526;
+          color: #e6f6ff;
+          border: 1.5px solid #4fd1ff22;
+          box-shadow: 0 2px 8px #4fd1ff11;
+        }
+        #about .info-card strong {
+          color: #4fd1ff;
+        }
+        #about .alert-info {
+          background: rgba(79,209,255,0.10) !important;
+          color: #4fd1ff !important;
+          border-left: 4px solid #4fd1ff !important;
+        }
+        #about .bg-dark {
+          background: #414345 !important;
+        }
+        #about .skill-badge {
+          background: #e6f6ff;
+          color: #232946;
+          border: 1.5px solid #4fd1ff22;
+          font-size: 1.05em;
+        }
+        #about .skill-badge i {
+          color: #4fd1ff;
+        }
+        @media (max-width: 768px) {
+          #about .profile-img-animated img {
+            max-width: 140px;
+          }
+          #about .info-card {
+            padding: 0.7em 0.8em;
+            font-size: 0.98em;
+          }
+        }
+      </style>
+    </section><!-- /About Section -->
+
+    <!-- Mes Compétences Section -->
+    <section id="competences" class="section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="color:#4fd1ff;">Mes compétences</h2>
+        <p class="mb-4">Un aperçu de mes compétences techniques et transversales acquises au fil de mes années au BUT.</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="competence-card gradient-border">
+              <h4 class="mb-3"><i class="bi bi-code-slash me-2"></i>Développement</h4>
+              <ul class="mb-0">
+                <li>Programmation orientée objet (Java, Python, PHP)</li>
+                <li>Développement web (HTML, CSS, JS, React, Node.js)</li>
+                <li>Développement mobile (Android)</li>
+                <li>API REST, Flask</li>
+                <li>Tests unitaires, gestion des exceptions</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="competence-card gradient-border">
+              <h4 class="mb-3"><i class="bi bi-database me-2"></i>Bases de données</h4>
+              <ul class="mb-0">
+                <li>Conception et modélisation (UML, MCD)</li>
+                <li>SQL, MySQL, PostgreSQL</li>
+                <li>Administration de bases de données</li>
+                <li>Gestion de données et requêtes complexes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="competence-card gradient-border">
+              <h4 class="mb-3"><i class="bi bi-kanban me-2"></i>Gestion de projet & Méthodologie</h4>
+              <ul class="mb-0">
+                <li>Méthode Agile (Scrum, Kanban)</li>
+                <li>Gestion de projet en équipe</li>
+                <li>Rédaction de cahier des charges</li>
+                <li>Veille technologique</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="competence-card gradient-border">
+              <h4 class="mb-3"><i class="bi bi-people me-2"></i>Compétences transversales</h4>
+              <ul class="mb-0">
+                <li>Travail en équipe</li>
+                <li>Communication</li>
+                <li>Autonomie et organisation</li>
+                <li>Adaptabilité</li>
+                <li>Créativité</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="competence-card gradient-border">
+              <h4 class="mb-3"><i class="bi bi-gear me-2"></i>Outils</h4>
+              <ul class="mb-0">
+                <li>Linux, Windows</li>
+                <li>VS Code, Pack Office, Canva, Figma</li>
+                <li>GLPI, Git, GitHub</li>
+                <li>Installation et configuration de systèmes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        #competences .competence-card {
+          background: linear-gradient(135deg, #232526 0%, #414345 100%);
+          color: #e6f6ff;
+          border-radius: 1.5rem;
+          box-shadow: 0 6px 32px #0002, 0 2px 8px #4fd1ff22;
+          border: 2.5px solid #4fd1ff44;
+          padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+          min-height: 320px;
+          transition: box-shadow 0.2s, transform 0.2s, border 0.2s;
+          position: relative;
+          overflow: hidden;
+        }
+        #competences .competence-card:hover {
+          box-shadow: 0 12px 40px #4fd1ff44, 0 4px 16px #0002;
+          border-color: #4fd1ff;
+          transform: translateY(-8px) scale(1.03);
+          z-index: 2;
+        }
+        #competences .competence-card h4 {
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: #4fd1ff;
+          letter-spacing: 0.5px;
+          margin-bottom: 1.2rem;
+          display: flex;
+          align-items: center;
+        }
+        #competences .competence-card ul {
+          font-size: 1.08rem;
+          color: #e6f6ff;
+          margin-bottom: 0.5em;
+          padding-left: 1.2em;
+        }
+        #competences .competence-card li {
+          margin-bottom: 0.5em;
+        }
+        @media (max-width: 768px) {
+          #competences .competence-card {
+            border-radius: 1rem;
+            padding: 1.2rem;
+            min-height: 220px;
+          }
+        }
+      </style>
+    </section><!-- /Mes Compétences Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="color:#4fd1ff;">Mon CV</h2>
+        <p>Voici mon CV en Français et Anglais</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center" style="gap: 2rem; margin: 1rem 0 0.5rem 0;">
+        <img src="assets/img/logofr.png" alt="CV Français" id="flag-fr" style="height:64px; width:64px; cursor:pointer; border-radius:10px; box-shadow:0 2px 8px #0002; transition:transform 0.2s;">
+        <img src="assets/img/logouk.png" alt="CV Anglais" id="flag-en" style="height:64px; width:64px; cursor:pointer; border-radius:10px; box-shadow:0 2px 8px #0002; transition:transform 0.2s;">
+      </div>
+      <div id="cv-container" class="d-flex justify-content-center align-items-center" style="min-height:100px; transition:min-height 0.4s cubic-bezier(.4,2,.6,1); margin-bottom:0.5rem;">
+        <img src="assets/img/CV_REZZAG_Youssouf-1.png" alt="CV Français" id="cv-fr" style="max-width:90%; display:none; border-radius:12px; box-shadow:0 4px 24px #0003;">
+        <img src="assets/img/cv _eng (1)-1.png" alt="CV Anglais" id="cv-en" style="max-width:90%; display:none; border-radius:12px; box-shadow:0 4px 24px #0003;">
+      </div>
+      <script>
+        const flagFr = document.getElementById('flag-fr');
+        const flagEn = document.getElementById('flag-en');
+        const cvFr = document.getElementById('cv-fr');
+        const cvEn = document.getElementById('cv-en');
+        const cvContainer = document.getElementById('cv-container');
+        let currentCV = null;
+        function showCV(lang) {
+          if(lang === 'fr') {
+            if(currentCV === 'fr') {
+              cvFr.style.display = 'none';
+              cvEn.style.display = 'none';
+              cvContainer.style.minHeight = '120px';
+              currentCV = null;
+            } else {
+              cvFr.style.display = 'block';
+              cvEn.style.display = 'none';
+              setTimeout(() => { cvContainer.style.minHeight = cvFr.offsetHeight + 40 + 'px'; }, 50);
+              currentCV = 'fr';
+            }
+          } else {
+            if(currentCV === 'en') {
+              cvFr.style.display = 'none';
+              cvEn.style.display = 'none';
+              cvContainer.style.minHeight = '120px';
+              currentCV = null;
+            } else {
+              cvFr.style.display = 'none';
+              cvEn.style.display = 'block';
+              setTimeout(() => { cvContainer.style.minHeight = cvEn.offsetHeight + 40 + 'px'; }, 50);
+              currentCV = 'en';
+            }
+          }
+        }
+        flagFr.onclick = () => showCV('fr');
+        flagEn.onclick = () => showCV('en');
+      </script>
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="mes-projets" class="section" style="background: linear-gradient(135deg, #232526 0%, #414345 100%);">
+      <div class="container-fluid px-4 mb-4">
+        <h2 class="text-center mb-5" style="color:#4fd1ff; font-family:'Poppins','Roboto',Arial,sans-serif; font-weight:700; letter-spacing:1px;">Mes Projets</h2>
+        <div class="row g-4 justify-content-center">
+          <!-- Projet 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card p-4 rounded-4 shadow-lg h-100" style="background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;">
+              <h4 class="mb-3" style="color:#4fd1ff; font-size:1.2rem;"><i class="bi bi-phone me-2" style="color:#4fd1ff;"></i> Application Vélib' Mobile</h4>
+              <ul style="font-size:1.05rem; padding-left:1.2em;">
+                <li>Application mobile pour consulter les stations Vélib'</li>
+                <li>Utilisation de Flutter et API REST</li>
+                <li>Authentification, carte interactive, gestion des favoris</li>
+              </ul>
+              <div class="mb-2">
+                <span class="badge bg-success">Python</span>
+                <span class="badge bg-warning text-dark">Flask</span>
+                <span class="badge bg-info text-dark">React</span>
+                <span class="badge bg-warning text-dark">API</span>
+                <span class="badge bg-dark">SQL</span>
+                <span class="badge bg-danger">Travail de groupe</span>
+              </div>
+              <a href="https://github.com/RezzagYoussouf/Velib_MobileApp" class="btn btn-outline-info btn-sm mt-2" target="_blank">Voir sur GitHub</a>
+            </div>
+          </div>
+          <!-- Projet 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card p-4 rounded-4 shadow-lg h-100" style="background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;">
+              <h4 class="mb-3" style="color:#4fd1ff; font-size:1.2rem;"><i class="bi bi-globe2 me-2" style="color:#4fd1ff;"></i> Développement d'un site Web S3</h4>
+              <ul style="font-size:1.05rem; padding-left:1.2em;">
+                <li>Développement d'un site Web type Vélib' en équipe</li>
+                <li>Modélisation UML, gestion BDD PostgreSQL/MySQL</li>
+                <li>API Flask, PHP, Python, HTML, CSS, JS</li>
+              </ul>
+              <div class="mb-2">
+                <span class="badge bg-success">PHP</span>             
+                <span class="badge bg-info text-dark">API</span>
+                <span class="badge bg-primary">PostgreSQL</span>
+                <span class="badge bg-secondary">MySQL</span>
+                <span class="badge bg-dark">SQL</span>
+                <span class="badge bg-danger">Travail de groupe</span>
+              </div>
+              <a href="https://github.com/RezzagYoussouf/VelibWeb" class="btn btn-outline-info btn-sm mt-2" target="_blank">Voir sur GitHub</a>
+            </div>
+          </div>
+          <!-- Projet 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card p-4 rounded-4 shadow-lg h-100" style="background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;">
+              <h4 class="mb-3" style="color:#4fd1ff; font-size:1.2rem;"><i class="bi bi-calculator me-2" style="color:#4fd1ff;"></i> Implémentation d'un besoin client</h4>
+              <ul style="font-size:1.05rem; padding-left:1.2em;">
+                <li>Projet en binôme</li>
+                <li>Développement d'une calculatrice en Java</li>
+                <li>Gestion des exceptions, tests unitaires, interface utilisateur</li>
+              </ul>
+              <div class="mb-2">
+                <span class="badge bg-dark">Java</span>
+                <span class="badge bg-danger">Travail de groupe</span>
+              </div>
+              <a href="https://github.com/RezzagYoussouf/SAE_R201" class="btn btn-outline-info btn-sm mt-2" target="_blank">Voir sur GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div id="more-projects-row"></div>
+        <div class="d-flex justify-content-center mt-4">
+          <a href="#" id="show-more-btn" class="btn btn-info btn-lg px-5" style="font-size:1.2rem; color:#232526; font-weight:600;">Voir plus de projets</a>
+        </div>
+      </div>
+      <style>
+        .project-card:hover {
+          box-shadow: 0 0 20px 0 #4fd1ff99, 0 2px 8px 0 #0002;
+          transform: translateY(-6px) scale(1.03);
+          border-color: #fff;
+        }
+        .project-card {
+          min-width: 270px;
+        }
+        .container-fluid#mes-projets, .container-fluid.px-4 {
+          padding-left: 2vw !important;
+          padding-right: 2vw !important;
+        }
+      </style>
+    </section><!-- /Mes Projets Section -->
+
+    <!-- Expériences & Formation Section -->
+    <section id="experiences" class="skills section">
+      <div class="container mb-4">
+        <div class="row g-4">
+          <!-- Arbre de formation sur toute la largeur -->
+          <div class="col-12">
+            <div class="p-4 rounded-4 shadow-lg h-100 mb-4" style="background: linear-gradient(135deg, #232526 0%, #414345 100%); color: #fff; font-family: 'Poppins', 'Roboto', Arial, sans-serif; border: 2px solid #4fd1ff;">
+              <h3 class="mb-4 d-flex align-items-center justify-content-center" style="font-size:1.7rem; color:#69A9FF; font-weight:800;">
+                <i class="bi bi-mortarboard-fill me-2 text-info"></i> Mon Parcours & Mes Objectifs
+              </h3>
+              <div class="d-flex flex-wrap justify-content-around align-items-center gap-2" style="flex-wrap:wrap;">
+                <div class="card bg-dark text-white p-2 mb-1" style="min-width:150px; max-width:170px; border-radius:10px; box-shadow:0 2px 6px #0002; font-size:0.95rem;">
+                  <div class="icon" style="font-size:2.2rem; margin-bottom:6px;"><i class="bi bi-building text-info"></i></div>
+                  <div class="title" style="font-weight:bold; font-size:1rem;">Brevet</div>
+                  <div class="highlight" style="color:#4FC3F7; font-size:0.95rem;">Mention Très Bien</div>
+                  <div style="font-size:0.9rem;">Collège Henri Wallon<br>2016 – 2020, Bezons</div>
+                </div>
+                <div class="arrow" style="font-size:2.2rem;"><i class="bi bi-arrow-right-circle text-info"></i></div>
+                <div class="card bg-dark text-white p-2 mb-1" style="min-width:150px; max-width:170px; border-radius:10px; box-shadow:0 2px 6px #0002; font-size:0.95rem;">
+                  <div class="icon" style="font-size:2.2rem; margin-bottom:6px;"><i class="bi bi-mortarboard text-info"></i></div>
+                  <div class="title" style="font-weight:bold; font-size:1rem;">Baccalauréat Général</div>
+                  <div style="color:#00C4FF; font-size:0.95rem;">Spécialités Maths, Numériques Sciences Informatique, Maths expertes</div>
+                  <div style="font-size:0.9rem;">Lycée Jean Jaures<br>2020 – 2023, Argenteuil</div>
+                </div>
+                <div class="arrow" style="font-size:2.2rem;"><i class="bi bi-arrow-right-circle text-info"></i></div>
+                <div class="card bg-dark text-white p-2 mb-1" style="min-width:150px; max-width:170px; border-radius:10px; box-shadow:0 2px 6px #0002; font-size:0.95rem;">
+                  <div class="icon" style="font-size:2.2rem; margin-bottom:6px;"><i class="bi bi-laptop text-info"></i></div>
+                  <div class="title" style="font-weight:bold; font-size:1rem;">BUT Informatique</div>
+                  <div style="color:#4fd1ff; font-size:0.95rem;">Réalisation d’applications : conception, développement, validation</div>
+                  <div style="font-size:0.9rem;">IUT Villetaneuse – Sorbonne Paris Nord<br>2023 – 2026</div>
+                </div>
+                <div class="arrow" style="font-size:2.2rem;"><i class="bi bi-arrow-right-circle text-info"></i></div>
+                <div class="card bg-dark text-white p-2 mb-1" style="min-width:150px; max-width:170px; border-radius:10px; box-shadow:0 2px 6px #0002; font-size:0.95rem;">
+                  <div class="icon" style="font-size:2.2rem; margin-bottom:6px;"><i class="bi bi-bullseye text-info"></i></div>
+                  <div class="title" style="font-weight:bold; font-size:1rem; color:#4fd1ff;">Objectif</div>
+                  <div style="font-size:0.9rem;">École d’ingénieur en informatique (IA ou développement logiciel)<br>À partir de 2026</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Expériences professionnelles en dessous, centrée -->
+          <div class="col-12 d-flex justify-content-center">
+            <div class="p-4 rounded-4 shadow-lg h-100 d-flex flex-row align-items-center flex-wrap flex-md-nowrap" style="background: linear-gradient(135deg, #232526 0%, #414345 100%); color: #fff; font-family: 'Poppins', 'Roboto', Arial, sans-serif; border: 2px solid #4fd1ff; width:100%; min-height:220px;">
+              <div class="flex-grow-1" style="min-width:180px;">
+                <h3 class="mb-3 d-flex align-items-center" style="font-size:1.1rem;">
+                  <i class="bi bi-briefcase-fill me-2 text-info"></i>  <span style="color:#4fd1ff; font-weight:700;">Expérience professionnelle</span>
+                </h3>
+                <ul style="font-size:0.95rem; padding-left:1.2em;">
+                  <li><span class="fw-bold">Technicien en informatique</span> (Stage de 8 semaines à la Mairie de Bezons)</li>
+                  <li>Préparation et remise de PC : Installation d’ordinateurs sous OS Windows et Linux</li>
+                  <li>Intervention sur les différents espaces municipaux pour installer des équipements ou résoudre les problèmes des utilisateurs</li>
+                  <li>Préparation d’ordinateurs sous Linux pour des espaces publics numériques</li>
+                  <li>Maintenance informatique, installation de photocopieurs, projecteurs, imprimantes</li>
+                  <li>Gestion du parc informatique : Utilisation de GLPI</li>
+                </ul>
+                <div class="mt-3 p-3 rounded-3" style="background: rgba(79,209,255,0.08); color: #fff; border-left: 4px solid #4fd1ff; font-size:0.90rem; text-align:justify;">
+                  <h4 class="mb-2" style="font-size:1rem; color:#4fd1ff;">Bilan</h4>
+                  <p class="mb-0" style="font-size:0.90rem; text-align:justify;">
+                    Mon stage de technicien à la Mairie de Bezons a été une expérience très enrichissante tant sur le plan professionnel que sur le plan personnel.
+                    Pendant ce stage, j’ai réalisé qu’il était essentiel de développer, en plus de mes compétences en informatique, des capacités en communication et en gestion de projet. 
+                    Les différents projets auxquels j’ai participé m’ont aussi permis de renforcer mes connaissances en administration système et en gestion du matériel.             
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center align-items-center ms-md-4 mt-4 mt-md-0" style="min-width:220px; max-width:320px; width:100%;">
+                <img src="assets/img/Mairie_Bezons_2017 (1).jpg" alt="Expérience professionnelle" class="img-fluid rounded-4 shadow" style="width:100%; max-width:320px; min-width:220px; height:auto; border:3px solid #4fd1ff33; background:#232526; object-fit:cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        .bg-dark {
+          background: #414345 !important;
+        }
+        .timeline {
+          position: relative;
+        }
+        .timeline li {
+          position: relative;
+          padding-left: 0.5rem;
+          margin-bottom: 2.2rem;
+        }
+        .timeline-dot {
+          position: absolute;
+          left: -1.35rem;
+          top: 0.3rem;
+          width: 1rem;
+          height: 1rem;
+          background: #4fd1ff;
+          border-radius: 50%;
+          border: 2px solid #fff;
+          box-shadow: 0 0 0 2px #4fd1ff44;
+        }
+        .timeline li:last-child {
+          margin-bottom: 0;
+        }
+      </style>
+    </section><!-- /Expériences & Formation Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2 style="color:#4fd1ff;">Contact</h2>
+        <p>N'hésitez pas à me contacter pour toute question ou collaboration !</p>
+      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center align-items-stretch g-4">
+          <div class="col-lg-7">
+            <div class="info-wrap p-4 rounded-4 shadow-lg h-100" style="background:linear-gradient(135deg,#232526 0%,#414345 100%); border:2px solid #4fd1ff;">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="info-item d-flex align-items-center gap-3 mb-4">
+                    <i class="bi bi-geo-alt flex-shrink-0" style="color:#4fd1ff; font-size:2rem;"></i>
+                    <div>
+                      <h3 class="mb-1" style="color:#4fd1ff; font-size:1.1rem;">Localisation</h3>
+                      <p class="mb-0">Ile de France</p>
+                    </div>
+                  </div>
+                  <div class="info-item d-flex align-items-center gap-3 mb-4">
+                    <i class="bi bi-telephone flex-shrink-0" style="color:#4fd1ff; font-size:2rem;"></i>
+                    <div>
+                      <h3 class="mb-1" style="color:#4fd1ff; font-size:1.1rem;">Téléphone</h3>
+                      <p class="mb-0">+33 6 66 91 59 02</p>
+                    </div>
+                  </div>
+                  <div class="info-item d-flex align-items-center gap-3 mb-4">
+                    <i class="bi bi-envelope flex-shrink-0" style="color:#4fd1ff; font-size:2rem;"></i>
+                    <div>
+                      <h3 class="mb-1" style="color:#4fd1ff; font-size:1.1rem;">Email</h3>
+                      <p class="mb-0">youssouf.rezzag@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-item d-flex align-items-center gap-3 mb-4">
+                    <i class="bi bi-linkedin flex-shrink-0" style="color:#4fd1ff; font-size:2rem;"></i>
+                    <div>
+                      <h3 class="mb-1" style="color:#4fd1ff; font-size:1.1rem;">LinkedIn</h3>
+                      <p class="mb-0"><a href="https://www.linkedin.com/in/youssouf-rezzag/" target="_blank" style="color: #4fd1ff; text-decoration: underline;">Mon LinkedIn</a></p>
+                    </div>
+                  </div>
+                  <div class="info-item d-flex align-items-center gap-3 mb-4">
+                    <i class="bi bi-github flex-shrink-0" style="color:#4fd1ff; font-size:2rem;"></i>
+                    <div>
+                      <h3 class="mb-1" style="color:#4fd1ff; font-size:1.1rem;">GitHub</h3>
+                      <p class="mb-0"><a href="https://github.com/RezzagYoussouf" target="_blank" style="color: #4fd1ff; text-decoration: underline;">Mon Github RezzagYoussouf</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <style>
+        #contact .info-wrap {
+          background: linear-gradient(135deg,#232526 0%,#414345 100%);
+          border-radius: 1.5rem;
+          box-shadow: 0 6px 32px #0002, 0 2px 8px #4fd1ff22;
+          border: 2px solid #4fd1ff44;
+        }
+        #contact .info-item h3 {
+          color: #4fd1ff;
+          font-size: 1.1rem;
+          font-weight: 700;
+          margin-bottom: 0.2rem;
+        }
+        #contact .info-item p, #contact .info-item a {
+          color: #e6f6ff;
+          font-size: 1.05rem;
+          margin-bottom: 0;
+        }
+        #contact .info-item i {
+          font-size: 2rem;
+        }
+        @media (max-width: 768px) {
+          #contact .info-wrap {
+            border-radius: 1rem;
+            padding: 1.2rem !important;
+          }
+        }
+      </style>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+        const showMoreBtn = document.getElementById('show-more-btn');
+        const moreProjectsRow = document.getElementById('more-projects-row');
+        let moreProjectsVisible = false;
+        showMoreBtn.onclick = function(e) {
+          e.preventDefault();
+          if (!moreProjectsVisible) {
+            moreProjectsRow.innerHTML = `
+              <div class=\"row g-4 justify-content-center mt-2\">
+                <div class=\"col-md-6 col-lg-4\">
+                  <div class=\"project-card p-4 rounded-4 shadow-lg h-100\" style=\"background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;\">
+                    <h4 class=\"mb-3\" style=\"color:#4fd1ff; font-size:1.2rem;\"><i class=\"bi bi-database-fill-gear me-2 text-info\"></i> Création d'une base de données</h4>
+                    <ul style=\"font-size:1.05rem; padding-left:1.2em;\">
+                      <li>Identifier les besoins d'un client</li>
+                      <li>Concevoir une base de données relationnelle à partir d’un cahier des charges</li>
+                      <li>Modélisation, création et gestion de la BDD sous MySQL</li>
+                    </ul>
+                    <div class=\"mb-2\">
+                      <span class=\"badge bg-dark\">SQL</span>
+                      <span class=\"badge bg-info text-dark\">MySQL</span>
+                      <span class=\"badge bg-danger\">PostgreSQL</span>
+                    </div>
+                    <a href="https://github.com/RezzagYoussouf/1er_ProjetBDD" class="btn" style="background:#4fd1ff; color:#232526; font-weight:600; border-radius:2em;" target="_blank">Voir sur GitHub</a>
+                  </div>
+                </div>
+                <div class=\"col-md-6 col-lg-4\">
+                  <div class=\"project-card p-4 rounded-4 shadow-lg h-100\" style=\"background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;\">
+                    <h4 class=\"mb-3\" style=\"color:#4fd1ff; font-size:1.2rem;\"><i class=\"bi bi-people-fill me-2 text-info\"></i> Recueil de besoin</h4>
+                    <ul style=\"font-size:1.05rem; padding-left:1.2em;\">
+                      <li>Appréhender les besoins du client et de l’utilisateur</li>
+                      <li>Élaborer un cahier des charges fonctionnel et technique</li>
+                      <li>Identifier les acteurs et les différentes phases d’un cycle de développement</li>
+                    </ul>
+                    <div class=\"mb-2\">
+                      <span class=\"badge bg-secondary\">Méthode Agile</span>
+                      <span class=\"badge bg-danger\">Travail de groupe</span>
+                    </div>
+                  </div>
+                </div>
+                <div class=\"col-md-6 col-lg-4\">
+                  <div class=\"project-card p-4 rounded-4 shadow-lg h-100\" style=\"background:rgba(34,40,49,0.98); border:2px solid #4fd1ff; color:#fff; font-family:'Poppins','Roboto',Arial,sans-serif;\">
+                    <h4 class=\"mb-3\" style=\"color:#4fd1ff; font-size:1.2rem;\"><i class=\"bi bi-bar-chart-fill me-2 text-info\"></i> Installation d'un poste pour le développement</h4>
+                    <ul style=\"font-size:1.05rem; padding-left:1.2em;\">
+                      <li>Installation d’un système d’exploitation Linux et des outils permettant le développement de sites Web sur un Raspberry Pi</li>
+                      <li>Outils utilisés : Linux, Apache, PostgreSQL, Python, Java, PHP</li>
+                    </ul>
+                    <div class=\"mb-2\">
+                      <span class="badge bg-success">Linux</span>
+                      <span class="badge bg-secondary">Apache</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            `;
+            showMoreBtn.textContent = 'Voir moins';
+            moreProjectsVisible = true;
+          } else {
+            moreProjectsRow.innerHTML = '';
+            showMoreBtn.textContent = 'Voir plus de projets';
+            moreProjectsVisible = false;
+          }
+        };
+      </script>
+      <style>
+  /* Amélioration UI globale */
+  .section-title h2 {
+    font-size: 2.3rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: var(--accent-color, #4fd1ff);
+    margin-bottom: 0.5em;
+  }
+  .section-title p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+  }
+  .project-card, .bg-dark, .rounded-3, .rounded-4, .shadow-lg {
+    border-radius: 1.5rem !important;
+    box-shadow: 0 4px 24px 0 #0001, 0 1.5px 8px 0 #4fd1ff22 !important;
+    transition: box-shadow 0.2s, transform 0.2s;
+    background: #414345 !important;
+  }
+  .project-card:hover, .bg-dark:hover, .rounded-3:hover, .rounded-4:hover, .shadow-lg:hover {
+    box-shadow: 0 8px 32px 0 #4fd1ff33, 0 4px 16px 0 #0002 !important;
+    transform: translateY(-8px) scale(1.03);
+    z-index: 2;
+  }
+  .project-card h4, .project-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent-color, #4fd1ff) !important;
+    letter-spacing: 0.5px;
+  }
+  .project-card ul, .project-card li {
+    font-size: 1.08rem;
+    color: #e6f6ff;
+    margin-bottom: 0.5em;
+  }
+  .badge, .skill-badge {
+    border-radius: 2em;
+    font-size: 1.05em;
+    font-weight: 600;
+    padding: 0.45em 1.2em;
+    margin-right: 0.3em;
+    margin-bottom: 0.2em;
+    box-shadow: 0 2px 8px #4fd1ff11;
+    background: #f8fafc;
+    color: #232946;
+    border: 1.5px solid #4fd1ff22;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+  }
+  .badge.bg-dark, .skill-badge.bg-dark {
+    background: #232946 !important;
+    color: #4fd1ff !important;
+    border: 1.5px solid #4fd1ff44;
+  }
+  .badge.bg-info, .skill-badge.bg-info {
+    background: #e0f7fa !important;
+    color: #007b8a !important;
+  }
+  .badge.bg-success, .skill-badge.bg-success {
+    background: #e6ffed !important;
+    color: #1a7f37 !important;
+  }
+  .badge.bg-warning, .skill-badge.bg-warning {
+    background: #fffbe6 !important;
+    color: #b38600 !important;
+  }
+  .badge.bg-danger, .skill-badge.bg-danger {
+    background: #ffe6e6 !important;
+    color: #b30000 !important;
+  }
+  .badge.bg-primary, .skill-badge.bg-primary {
+    background: #e6e6ff !important;
+    color: #3a3a5a !important;
+  }
+  .badge.bg-secondary, .skill-badge.bg-secondary {
+    background: #f0f0f5 !important;
+    color: #555;
+  }
+  .project-card .btn, .btn-outline-info, .btn-info {
+    border-radius: 2em;
+    font-weight: 600;
+    padding: 0.5em 1.5em;
+    font-size: 1.08em;
+    box-shadow: 0 2px 8px #4fd1ff22;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  }
+  .project-card .btn:hover, .btn-outline-info:hover, .btn-info:hover {
+    background: #4fd1ff !important;
+    color: #232946 !important;
+    box-shadow: 0 4px 16px #4fd1ff44;
+    border: none !important;
+  }
+  .img-fluid.rounded-circle, .profile-img img {
+    border-radius: 50% !important;
+    box-shadow: 0 4px 24px #4fd1ff33, 0 2px 8px #0002;
+    border: 4px solid #4fd1ff44;
+    transition: box-shadow 0.2s, border 0.2s;
+  }
+  .img-fluid.rounded-circle:hover, .profile-img img:hover {
+    box-shadow: 0 8px 32px #4fd1ff55, 0 4px 16px #0002;
+    border: 4px solid #4fd1ff;
+  }
+  .main, .section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  @media (max-width: 768px) {
+    .project-card, .bg-dark, .rounded-3, .rounded-4, .shadow-lg {
+      border-radius: 1rem !important;
+      padding: 1.2rem !important;
+    }
+    .main, .section {
+      padding-top: 1.2rem;
+      padding-bottom: 1.2rem;
+    }
+  }
+</style>
+</body>
+
+</html>
